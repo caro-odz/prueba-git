@@ -1,0 +1,16 @@
+print("    Ejercicio 8: Número mayor:")
+q = float(input("Ingrese el dato n°1: "))
+w= float(input("Ingrese el dato n°2: "))
+e=float(input("Ingrese el dato n°3: "))
+
+if q>=w and q>=e:
+    mayor = q
+elif w>= q and w>= e:
+    mayor= w
+elif:
+    mayor= e
+print("El mayor es:", mayor)
+
+
+
+

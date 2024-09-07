@@ -1,0 +1,47 @@
+print ("   Ejercicios Clase 1")
+print("Ejercicio 1: Saludo")
+print ("hola Python")
+print("   Ejercicio 2: Definición de Variables")
+a= 4.5
+b= 6
+print ("la suma de a y b es:", a+b)
+print("   **Resolución Profe**")
+num1= float(input("ingresa el primer número:"))
+num2= float(input("ingresa el segundo número:"))
+sumar= num1+num2
+print("la suma es:",sumar)
+print("   Ejercicio 3: Par o Impar")
+num=int(input("Ingresa un número:"))
+if num % 2== 0:
+    print("El número es par")
+else:
+    print("El número es impar")
+print("Nota: para evaluar que es par o impar se utiliza % 2, el símbolo %2 utiliza para referencial el resto de una división")
+
+print("    Ejercicio 4: Calcular Área de un Triangulo")
+base= float(input("Ingrese la base del triángulo:"))
+altura= float(input("Ingrese la altura del triángulo:"))
+area= (base * altura)/2
+print ("Base:", base)
+print("Altura",altura)
+print(f"El área del Tríangulo es:",area)
+
+
+
+
+print("Ejercicio X: Definición de Funciones")
+print("#Suludo")
+def saludar(nombre):
+    print(f"hola, {nombre}")
+saludar("carolina")
+print("#Suma y almacenamiento de resultado")
+def suma(c,v):
+    return c+v
+print(f"la suma es:",suma(3,5))
+result =suma (3,5)
+print("Resultado de la suma", result)
+print("#Área del Triangulo")
+def areatg(b,h):
+    return b*h/2
+print(f"Área triangulo", areatg(5,9))
+
